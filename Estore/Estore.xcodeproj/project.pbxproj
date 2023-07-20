@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1F13C3298B9E32003B35C7 /* LikedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F13C2298B9E32003B35C7 /* LikedPage.swift */; };
+		9A1FFAD8296FF91E00B557EB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1FFAD7296FF91E00B557EB /* SearchView.swift */; };
+		9A30F965296723D80002CC9B /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A30F964296723D80002CC9B /* MainPage.swift */; };
+		9A34DD4B298BE1450053DF0D /* CartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34DD4A298BE1450053DF0D /* CartPage.swift */; };
+		9A4C3DD829681B850017CFFF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C3DD729681B850017CFFF /* Home.swift */; };
+		9A66E3E4296865EE00FDE9B8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A66E3E3296865EE00FDE9B8 /* Product.swift */; };
+		9A66E3E629686C9600FDE9B8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A66E3E529686C9600FDE9B8 /* HomeViewModel.swift */; };
+		9A797A48296EE1CF00D4C9DD /* MoreProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A797A47296EE1CF00D4C9DD /* MoreProductsView.swift */; };
+		9A829C0129659F10006AF6BB /* EstoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A829C0029659F10006AF6BB /* EstoreApp.swift */; };
+		9A829C0329659F10006AF6BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A829C0229659F10006AF6BB /* ContentView.swift */; };
+		9A829C0529659F12006AF6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A829C0429659F12006AF6BB /* Assets.xcassets */; };
+		9A829C0829659F12006AF6BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A829C0729659F12006AF6BB /* Preview Assets.xcassets */; };
+		9A829C1229659F12006AF6BB /* EstoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A829C1129659F12006AF6BB /* EstoreTests.swift */; };
+		9A829C1C29659F12006AF6BB /* EstoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A829C1B29659F12006AF6BB /* EstoreUITests.swift */; };
+		9A829C1E29659F12006AF6BB /* EstoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A829C1D29659F12006AF6BB /* EstoreUITestsLaunchTests.swift */; };
+		9A866E0F2965ABB600B552A2 /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A866E0E2965ABB600B552A2 /* OnBoardingPage.swift */; };
+		9A9A03C9297E7B9900458BB8 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A03C8297E7B9900458BB8 /* ProductDetailView.swift */; };
+		9A9A03CB297E7BCD00458BB8 /* SharedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A03CA297E7BCD00458BB8 /* SharedDataModel.swift */; };
+		9AD1FB6C29706AFE0083C2AD /* StaggedGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1FB6B29706AFE0083C2AD /* StaggedGrid.swift */; };
+		9ADE80E2297DD64300DF7105 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE80E1297DD64300DF7105 /* ProfilePage.swift */; };
+		9AF0D2CC2965C0F700F7980F /* LoginPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0D2CB2965C0F700F7980F /* LoginPageModel.swift */; };
+		9AF0D2CE2965C27900F7980F /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0D2CD2965C27900F7980F /* LoginPage.swift */; };
+		9AF0D2D02965C63400F7980F /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0D2CF2965C63400F7980F /* CustomCorners.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A829C0E29659F12006AF6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A829BF529659F0F006AF6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A829BFC29659F0F006AF6BB;
+			remoteInfo = Estore;
+		};
+		9A829C1829659F12006AF6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A829BF529659F0F006AF6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A829BFC29659F0F006AF6BB;
+			remoteInfo = Estore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A1F13C2298B9E32003B35C7 /* LikedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPage.swift; sourceTree = "<group>"; };
+		9A1FFAD7296FF91E00B557EB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9A30F964296723D80002CC9B /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		9A34DD4A298BE1450053DF0D /* CartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPage.swift; sourceTree = "<group>"; };
+		9A4C3DD729681B850017CFFF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9A66E3E3296865EE00FDE9B8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9A66E3E529686C9600FDE9B8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9A797A47296EE1CF00D4C9DD /* MoreProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreProductsView.swift; sourceTree = "<group>"; };
+		9A829BFD29659F0F006AF6BB /* Estore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A829C0029659F10006AF6BB /* EstoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstoreApp.swift; sourceTree = "<group>"; };
+		9A829C0229659F10006AF6BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A829C0429659F12006AF6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A829C0729659F12006AF6BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A829C0D29659F12006AF6BB /* EstoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A829C1129659F12006AF6BB /* EstoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstoreTests.swift; sourceTree = "<group>"; };
+		9A829C1729659F12006AF6BB /* EstoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A829C1B29659F12006AF6BB /* EstoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstoreUITests.swift; sourceTree = "<group>"; };
+		9A829C1D29659F12006AF6BB /* EstoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A866E0E2965ABB600B552A2 /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
+		9A9A03C8297E7B9900458BB8 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		9A9A03CA297E7BCD00458BB8 /* SharedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataModel.swift; sourceTree = "<group>"; };
+		9AD1FB6B29706AFE0083C2AD /* StaggedGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggedGrid.swift; sourceTree = "<group>"; };
+		9ADE80E1297DD64300DF7105 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		9AF0D2CB2965C0F700F7980F /* LoginPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageModel.swift; sourceTree = "<group>"; };
+		9AF0D2CD2965C27900F7980F /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		9AF0D2CF2965C63400F7980F /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A829BFA29659F0F006AF6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A829C0A29659F12006AF6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A829C1429659F12006AF6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A4C3DD629681B710017CFFF /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				9A4C3DD729681B850017CFFF /* Home.swift */,
+				9ADE80E1297DD64300DF7105 /* ProfilePage.swift */,
+				9A1F13C2298B9E32003B35C7 /* LikedPage.swift */,
+				9A34DD4A298BE1450053DF0D /* CartPage.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		9A66E3E2296865D400FDE9B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A66E3E3296865EE00FDE9B8 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A829BF429659F0F006AF6BB = {
+			isa = PBXGroup;
+			children = (
+				9A829BFF29659F10006AF6BB /* Estore */,
+				9A829C1029659F12006AF6BB /* EstoreTests */,
+				9A829C1A29659F12006AF6BB /* EstoreUITests */,
+				9A829BFE29659F0F006AF6BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A829BFE29659F0F006AF6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A829BFD29659F0F006AF6BB /* Estore.app */,
+				9A829C0D29659F12006AF6BB /* EstoreTests.xctest */,
+				9A829C1729659F12006AF6BB /* EstoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A829BFF29659F10006AF6BB /* Estore */ = {
+			isa = PBXGroup;
+			children = (
+				9A66E3E2296865D400FDE9B8 /* Model */,
+				9AF0D2CA2965C0D500F7980F /* ViewModel */,
+				9A829C2A2965A9D5006AF6BB /* View */,
+				9A829C0029659F10006AF6BB /* EstoreApp.swift */,
+				9A829C0229659F10006AF6BB /* ContentView.swift */,
+				9A829C0429659F12006AF6BB /* Assets.xcassets */,
+				9A829C0629659F12006AF6BB /* Preview Content */,
+			);
+			path = Estore;
+			sourceTree = "<group>";
+		};
+		9A829C0629659F12006AF6BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A829C0729659F12006AF6BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A829C1029659F12006AF6BB /* EstoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A829C1129659F12006AF6BB /* EstoreTests.swift */,
+			);
+			path = EstoreTests;
+			sourceTree = "<group>";
+		};
+		9A829C1A29659F12006AF6BB /* EstoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A829C1B29659F12006AF6BB /* EstoreUITests.swift */,
+				9A829C1D29659F12006AF6BB /* EstoreUITestsLaunchTests.swift */,
+			);
+			path = EstoreUITests;
+			sourceTree = "<group>";
+		};
+		9A829C2A2965A9D5006AF6BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A4C3DD629681B710017CFFF /* TabViews */,
+				9A866E0E2965ABB600B552A2 /* OnBoardingPage.swift */,
+				9AF0D2CD2965C27900F7980F /* LoginPage.swift */,
+				9AF0D2CF2965C63400F7980F /* CustomCorners.swift */,
+				9A30F964296723D80002CC9B /* MainPage.swift */,
+				9A797A47296EE1CF00D4C9DD /* MoreProductsView.swift */,
+				9A1FFAD7296FF91E00B557EB /* SearchView.swift */,
+				9AD1FB6B29706AFE0083C2AD /* StaggedGrid.swift */,
+				9A9A03C8297E7B9900458BB8 /* ProductDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AF0D2CA2965C0D500F7980F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9AF0D2CB2965C0F700F7980F /* LoginPageModel.swift */,
+				9A66E3E529686C9600FDE9B8 /* HomeViewModel.swift */,
+				9A9A03CA297E7BCD00458BB8 /* SharedDataModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A829BFC29659F0F006AF6BB /* Estore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A829C2129659F12006AF6BB /* Build configuration list for PBXNativeTarget "Estore" */;
+			buildPhases = (
+				9A829BF929659F0F006AF6BB /* Sources */,
+				9A829BFA29659F0F006AF6BB /* Frameworks */,
+				9A829BFB29659F0F006AF6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Estore;
+			productName = Estore;
+			productReference = 9A829BFD29659F0F006AF6BB /* Estore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A829C0C29659F12006AF6BB /* EstoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A829C2429659F12006AF6BB /* Build configuration list for PBXNativeTarget "EstoreTests" */;
+			buildPhases = (
+				9A829C0929659F12006AF6BB /* Sources */,
+				9A829C0A29659F12006AF6BB /* Frameworks */,
+				9A829C0B29659F12006AF6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A829C0F29659F12006AF6BB /* PBXTargetDependency */,
+			);
+			name = EstoreTests;
+			productName = EstoreTests;
+			productReference = 9A829C0D29659F12006AF6BB /* EstoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A829C1629659F12006AF6BB /* EstoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A829C2729659F12006AF6BB /* Build configuration list for PBXNativeTarget "EstoreUITests" */;
+			buildPhases = (
+				9A829C1329659F12006AF6BB /* Sources */,
+				9A829C1429659F12006AF6BB /* Frameworks */,
+				9A829C1529659F12006AF6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A829C1929659F12006AF6BB /* PBXTargetDependency */,
+			);
+			name = EstoreUITests;
+			productName = EstoreUITests;
+			productReference = 9A829C1729659F12006AF6BB /* EstoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A829BF529659F0F006AF6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9A829BFC29659F0F006AF6BB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9A829C0C29659F12006AF6BB = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9A829BFC29659F0F006AF6BB;
+					};
+					9A829C1629659F12006AF6BB = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9A829BFC29659F0F006AF6BB;
+					};
+				};
+			};
+			buildConfigurationList = 9A829BF829659F0F006AF6BB /* Build configuration list for PBXProject "Estore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A829BF429659F0F006AF6BB;
+			productRefGroup = 9A829BFE29659F0F006AF6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A829BFC29659F0F006AF6BB /* Estore */,
+				9A829C0C29659F12006AF6BB /* EstoreTests */,
+				9A829C1629659F12006AF6BB /* EstoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A829BFB29659F0F006AF6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A829C0829659F12006AF6BB /* Preview Assets.xcassets in Resources */,
+				9A829C0529659F12006AF6BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A829C0B29659F12006AF6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A829C1529659F12006AF6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A829BF929659F0F006AF6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A829C0329659F10006AF6BB /* ContentView.swift in Sources */,
+				9A797A48296EE1CF00D4C9DD /* MoreProductsView.swift in Sources */,
+				9A9A03CB297E7BCD00458BB8 /* SharedDataModel.swift in Sources */,
+				9AF0D2D02965C63400F7980F /* CustomCorners.swift in Sources */,
+				9A66E3E4296865EE00FDE9B8 /* Product.swift in Sources */,
+				9A1FFAD8296FF91E00B557EB /* SearchView.swift in Sources */,
+				9A66E3E629686C9600FDE9B8 /* HomeViewModel.swift in Sources */,
+				9A866E0F2965ABB600B552A2 /* OnBoardingPage.swift in Sources */,
+				9AF0D2CC2965C0F700F7980F /* LoginPageModel.swift in Sources */,
+				9A1F13C3298B9E32003B35C7 /* LikedPage.swift in Sources */,
+				9A34DD4B298BE1450053DF0D /* CartPage.swift in Sources */,
+				9AF0D2CE2965C27900F7980F /* LoginPage.swift in Sources */,
+				9A30F965296723D80002CC9B /* MainPage.swift in Sources */,
+				9ADE80E2297DD64300DF7105 /* ProfilePage.swift in Sources */,
+				9A9A03C9297E7B9900458BB8 /* ProductDetailView.swift in Sources */,
+				9AD1FB6C29706AFE0083C2AD /* StaggedGrid.swift in Sources */,
+				9A4C3DD829681B850017CFFF /* Home.swift in Sources */,
+				9A829C0129659F10006AF6BB /* EstoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A829C0929659F12006AF6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A829C1229659F12006AF6BB /* EstoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A829C1329659F12006AF6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A829C1E29659F12006AF6BB /* EstoreUITestsLaunchTests.swift in Sources */,
+				9A829C1C29659F12006AF6BB /* EstoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A829C0F29659F12006AF6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A829BFC29659F0F006AF6BB /* Estore */;
+			targetProxy = 9A829C0E29659F12006AF6BB /* PBXContainerItemProxy */;
+		};
+		9A829C1929659F12006AF6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A829BFC29659F0F006AF6BB /* Estore */;
+			targetProxy = 9A829C1829659F12006AF6BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A829C1F29659F12006AF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A829C2029659F12006AF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A829C2229659F12006AF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Estore/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UWUYJ2WNQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denysizhyk.studying.Estore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A829C2329659F12006AF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Estore/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UWUYJ2WNQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denysizhyk.studying.Estore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A829C2529659F12006AF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UWUYJ2WNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denysizhyk.studying.EstoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Estore";
+			};
+			name = Debug;
+		};
+		9A829C2629659F12006AF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UWUYJ2WNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denysizhyk.studying.EstoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Estore";
+			};
+			name = Release;
+		};
+		9A829C2829659F12006AF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UWUYJ2WNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denysizhyk.studying.EstoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Estore;
+			};
+			name = Debug;
+		};
+		9A829C2929659F12006AF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UWUYJ2WNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denysizhyk.studying.EstoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Estore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A829BF829659F0F006AF6BB /* Build configuration list for PBXProject "Estore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A829C1F29659F12006AF6BB /* Debug */,
+				9A829C2029659F12006AF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A829C2129659F12006AF6BB /* Build configuration list for PBXNativeTarget "Estore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A829C2229659F12006AF6BB /* Debug */,
+				9A829C2329659F12006AF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A829C2429659F12006AF6BB /* Build configuration list for PBXNativeTarget "EstoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A829C2529659F12006AF6BB /* Debug */,
+				9A829C2629659F12006AF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A829C2729659F12006AF6BB /* Build configuration list for PBXNativeTarget "EstoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A829C2829659F12006AF6BB /* Debug */,
+				9A829C2929659F12006AF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A829BF529659F0F006AF6BB /* Project object */;
+}
